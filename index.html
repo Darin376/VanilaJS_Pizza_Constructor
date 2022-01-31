@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./img/Pizza.link.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <h2>Собери пиццу сам!</h2>
+        <article class="main">
+            <section class="information">
+                <div class="h3">
+                    <h3>Область просмотра заказа:</h3>
+                    <p>Чтобы удалить элемент заказа нажмитне на элемент !!!</p>
+                </div>
+                <div id="list-output" class="orderList">
+                    <ul class="ul1 lik" data-key-list="base"></ul>
+                    <ul class="ul2 lik" data-key-list="one"></ul>
+                    <ul class="ul3 lik" data-key-list="two"></ul>
+                    <ul class="ul4 lik" data-key-list="sous"></ul>
+                </div>
+                <div class="total-amount"><span class="text">К оплате:</span><span class="summa">0p</span>
+                </div>
+            </section>
+            <section class="orders">
+                <div class="pizza">
+                <div class="pizza-img"></div>
+            </div>
+                  <button class="btnOrder"> Заказать</button>
+            </section>
+        </article>
+            <div id="list">
+                <div>
+                    <h3> Oснова</h3>
+                    <ul class="base" data-key-list="base">
+                    </ul>
+                </div>
+                <div>
+                    <h3> Первый ингридиент</h3>
+                    <ul class="one" data-key-list="one">
+                    </ul>
+                </div>
+                <div>
+                    <h3> Второй ингридиент</h3>
+                    <ul class="two" data-key-list="two">
+                    </ul>
+                </div>
+                <div>
+                    <h3> Соус</h3>
+                    <ul class="sous" data-key-list="sous">
+                    </ul>
+                </div>
+            </div>
+    </div>
+    <script src="./script/script.js" type="module"></script>
+</body>
+</html>
